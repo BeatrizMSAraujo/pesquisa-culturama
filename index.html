@@ -41,11 +41,70 @@
 
             </fieldset>
 
+            <fieldset>
+                <legend>Perfil</legend>
+                <p>Gênero:</p>
+                <input type="text" name="userGender" value="Feminino">
+                <label for="userGender"> Feminino</label>
+                <br>
+
+                <input type="text" name="userGender"  value="Masculino">
+                <label for="userGender"> Masculino</label>
+                <br>
+                <input type="text" name="userGender"  value="notInformed">
+                <label for="userGender"> Prefiro não informar</label>
+                <br>
+                <label for="maritalStatus"> Estado Civil</label>
+                <select name="maritalStatus" id="maritalStatus">
+                    <option value="notInformed">Selecione...</option>
+                    <option  value="casada"> Casado</option>
+                    <option  value="solteiro">Solteiro</option>
+                    <option  value="divorciado">Divorciado</option>
+                    <option  value="uniaoEstavel">União Estável</option>
+                </select>
+                <br>
+
+                <label for="userStates">Estado:</label>
+                <select name="usersStates" required>
+                <option value="acre">Acre</option> 
+                <option value="alagoas">Alagoas</option> 
+                <option value="amapa">Amapá</option> 
+                <option value="amazonas">Amazona</option> 
+                <option value="bahia">Bahia</option> 
+                <option value="ceara">Ceará</option> 
+                <option value="distritoFederal">Distrito Federal/option> 
+                <option value="espiritoSanto">Espírito Santo</option> 
+                <option value="goias">Goiás</option> 
+                <option value="maranhso">Maranhão</option> 
+                <option value="matoGrossoDoSul">Mato Grosso do Sul</option> 
+                <option value="matoGrosso">Mato Grosso</option> 
+                <option value="minasGerais">Minas Gerais</option> 
+                <option value="para">Pára</option> 
+                <option value="paraiba">Paraíba</option> 
+                <option value="parana">Paraná</option> 
+                <option value="pernambuco">Pernambuco</option> 
+                <option value="piauí">Piauí</option> 
+                <option value="rioDeJaneiro">Rio de Janeiro</option> 
+                <option value="rioGrandeDoNorte">Rio Grande do Norte</option> 
+                <option value="rioGrandeDoSul">Rio Grande do Sul</option> 
+                <option value="rondonia">Rondônia</option> 
+                <option value="roraima">Roraima</option> 
+                <option value="santaCatarina">Santa Catarina</option> 
+                <option value="sãoPaulo">São Paulo</option> 
+                <option value="sergipe">Sergipe</option> 
+                <option value="tocantins">Tocantins</option>
+                </select>
+                <br>
+
+                <label for="userCity">Cidade</label>
+                <input type="text" id= "userCity" name="userCity" autocomplete="address-level2" placeholder="Ex.: João Pessoa">
+            </fieldset>
 
 
 
 
-            <button type="submit">Enviar</button>
+
+            <button type="submiPt">Enviar</button>
         </form>
     </section>
 </body>
